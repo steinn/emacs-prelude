@@ -34,10 +34,18 @@
 ;;; Code:
 
 (require 'prelude-programming)
-(prelude-ensure-module-deps '(python))
+
+;; pip install jedi epc
+(prelude-ensure-module-deps '(epc auto-complete jedi))
+
+;; Setup jedi (auto-completion)
+(setq jedi:setup-keys t)
+(autoload 'jedi:setup "jedi" nil t)
+
 
 (defun prelude-python-mode-defaults ()
   (run-hooks 'prelude-prog-mode-hook) ;; run manually; not derived from prog-mode
+  (jedi:setup)
   (electric-indent-mode -1))
 
 (setq prelude-python-mode-hook 'prelude-python-mode-defaults)
