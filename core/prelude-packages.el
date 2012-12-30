@@ -47,6 +47,7 @@
     elisp-slime-nav
     expand-region
     flycheck
+    fill-column-indicator
     gist
     git-commit-mode
     gitconfig-mode
