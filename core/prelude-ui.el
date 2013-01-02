@@ -75,10 +75,8 @@
 ;; use zenburn as the default theme
 (load-theme 'zenburn t)
 
-;; add a vertical line at column 80
+;; setup fci-mode
 (require 'fill-column-indicator)
-(define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
-(global-fci-mode 1)
 (setq-default fill-column 80)
 
 (provide 'prelude-ui)

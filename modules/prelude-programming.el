@@ -119,7 +119,8 @@
   (prelude-enable-whitespace)
   (flycheck-mode +1)
   (prelude-local-comment-auto-fill)
-  (prelude-add-watchwords))
+  (prelude-add-watchwords)
+  (fci-mode +1))
 
 (setq prelude-prog-mode-hook 'prelude-prog-mode-defaults)
 
