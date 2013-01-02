@@ -6,8 +6,6 @@
  '(abbrev-file-name "~/.emacs.d/personal/abbrev_defs")
  '(ac-comphist-file "/home/steinn/.emacs.d/personal/ac-comphist.dat")
  '(dired-listing-switches "-al --group-directories-first")
- '(ediff-merge-split-window-function (quote split-window-vertically))
- '(ediff-split-window-function (quote split-window-horizontally))
  '(jedi:server-args (quote ("--sys-path" "/home/steinn/work/birdcore")))
  '(safe-local-variable-values (quote ((eval when (fboundp (quote rainbow-mode)) (rainbow-mode 1)))))
  '(scroll-bar-mode nil)

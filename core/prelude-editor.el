@@ -297,6 +297,8 @@ Will only occur if prelude-whitespace is also enabled."
 ;; ediff - don't start another frame
 (require 'ediff)
 (setq ediff-window-setup-function 'ediff-setup-windows-plain)
+(setq ediff-merge-split-window-function 'split-window-vertically)
+(setq ediff-split-window-function 'split-window-horizontally)
 
 ;; clean up obsolete buffers automatically
 (require 'midnight)
