@@ -8,6 +8,7 @@
  '(dired-listing-switches "-al --group-directories-first")
  '(ediff-merge-split-window-function (quote split-window-vertically))
  '(ediff-split-window-function (quote split-window-horizontally))
+ '(jedi:server-args (quote ("--sys-path" "/home/steinn/work/birdcore")))
  '(safe-local-variable-values (quote ((eval when (fboundp (quote rainbow-mode)) (rainbow-mode 1)))))
  '(scroll-bar-mode nil)
  '(whitespace-line nil))
