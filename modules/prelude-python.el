@@ -49,6 +49,7 @@
 (defun prelude-python-mode-defaults ()
   (run-hooks 'prelude-prog-mode-hook) ;; run manually; not derived from prog-mode
   (jedi:setup)
+  (auto-complete-mode +1)
   (whitespace-mode +1)
   (electric-indent-mode -1))
 
