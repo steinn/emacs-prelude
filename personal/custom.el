@@ -7,9 +7,7 @@
  '(ac-comphist-file "/home/steinn/.emacs.d/personal/ac-comphist.dat")
  '(dired-listing-switches "-al --group-directories-first")
  '(jedi:server-args (quote ("--sys-path" "/home/steinn/work/birdcore")))
- '(safe-local-variable-values (quote ((eval when (fboundp (quote rainbow-mode)) (rainbow-mode 1)))))
- '(scroll-bar-mode nil)
- '(whitespace-line nil))
+ '(safe-local-variable-values (quote ((eval when (fboundp (quote rainbow-mode)) (rainbow-mode 1))))))
 
 (eval-after-load  "zenburn" (custom-theme-set-faces
                              `zenburn
