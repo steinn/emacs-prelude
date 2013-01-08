@@ -92,6 +92,7 @@
 (global-set-key (kbd "<f12>") 'menu-bar-mode)
 
 (global-set-key (kbd "C-x g") 'magit-status)
+(global-set-key (kbd "C-c b") 'magit-blame-mode)
 
 (global-set-key (kbd "C-=") 'er/expand-region)
 
