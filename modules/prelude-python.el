@@ -38,10 +38,13 @@
 ;; pip install jedi epc
 (prelude-ensure-module-deps '(epc auto-complete jedi))
 
+;; Setup python-mode
+(autoload 'python-mode "python" "Python Mode." t)
+(setq python-shell-interpreter "ipython")
+
 ;; Setup jedi (auto-completion)
 (setq jedi:setup-keys t)
 (autoload 'jedi:setup "jedi" nil t)
-
 
 (defun prelude-python-mode-defaults ()
   (run-hooks 'prelude-prog-mode-hook) ;; run manually; not derived from prog-mode

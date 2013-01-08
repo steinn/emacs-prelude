@@ -1,0 +1,3 @@
+[submodule "vendor/python"]
+           path = vendor/python
+           url = https://github.com/fgallina/python.el.git
