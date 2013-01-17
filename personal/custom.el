@@ -6,8 +6,10 @@
  '(abbrev-file-name "~/.emacs.d/personal/abbrev_defs")
  '(ac-comphist-file "/home/steinn/.emacs.d/personal/ac-comphist.dat")
  '(dired-listing-switches "-al --group-directories-first")
+ '(indicate-buffer-boundaries (quote left))
+ '(indicate-empty-lines t)
  '(jedi:server-args (quote ("--sys-path" "/home/steinn/work/birdcore")))
- '(safe-local-variable-values (quote ((virtualenv-workon . "birdcore") (eval when (fboundp (quote rainbow-mode)) (rainbow-mode 1))))))
+ '(safe-local-variable-values (quote ((python-run-file . "/home/steinn/work/birdcore/special/steinn/emacs_shell.py") (python-run-file . "run.py") (python-shell-interpreter . "python") (python-shell-interpreter . "ipython") (python-shell-interpreter "ipython") (virtualenv-workon . "birdcore") (eval when (fboundp (quote rainbow-mode)) (rainbow-mode 1))))))
 
 (eval-after-load  "zenburn" (custom-theme-set-faces
                              `zenburn
