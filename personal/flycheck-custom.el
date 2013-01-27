@@ -7,7 +7,6 @@
  '(ac-comphist-file "/home/steinn/.emacs.d/personal/ac-comphist.dat")
  '(dired-listing-switches "-al --group-directories-first")
  '(erc-away-nickname nil)
- '(erc-nick "joggz")
  '(indicate-buffer-boundaries (quote left))
  '(indicate-empty-lines t)
  '(jedi:server-args (quote ("--sys-path" "/home/steinn/work/birdcore")))

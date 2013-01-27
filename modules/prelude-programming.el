@@ -32,7 +32,9 @@
 
 ;;; Code:
 
-(prelude-ensure-module-deps '(guru-mode))
+(prelude-ensure-module-deps '(guru-mode visible-mark))
+
+(require 'visible-mark)
 
 (defun prelude-ido-goto-symbol (&optional symbol-list)
   "Refresh imenu and jump to a place in the buffer using Ido."
@@ -120,7 +122,9 @@
   (flycheck-mode +1)
   (prelude-local-comment-auto-fill)
   (prelude-add-watchwords)
-  (fci-mode +1))
+  (visible-mark-mode +1)
+  ;(fci-mode +1)
+  )
 
 (setq prelude-prog-mode-hook 'prelude-prog-mode-defaults)
 

@@ -80,8 +80,8 @@
 (load-theme 'zenburn t)
 
 ;; setup fci-mode
-(require 'fill-column-indicator)
-(setq-default fill-column 80)
+;(require 'fill-column-indicator)
+;(setq-default fill-column 80)
 
 (provide 'prelude-ui)
 ;;; prelude-ui.el ends here
