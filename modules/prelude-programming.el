@@ -97,9 +97,9 @@
           1 font-lock-warning-face t))))
 
 ;; show the name of the current function definition in the modeline
-(require 'which-func)
-(setq which-func-modes t)
-(which-function-mode 1)
+;; (require 'which-func)
+;; (setq which-func-modes t)
+;; (which-function-mode 1)
 
 ;; in Emacs 24 programming major modes generally derive from a common
 ;; mode named prog-mode; for others, we'll arrange for our mode
